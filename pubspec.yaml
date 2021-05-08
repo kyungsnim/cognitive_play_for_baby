@@ -1,0 +1,143 @@
+name: cognitive_play_for_baby
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  carousel_slider: ^3.0.0
+  audioplayers: ^0.17.4
+  get: ^3.25.6
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/동물.jpeg
+    - assets/images/가족.jpeg
+    - assets/images/색깔.jpeg
+    - assets/images/숫자.jpeg
+    - assets/images/과일.jpeg
+    - assets/images/강아지.jpeg
+    - assets/images/고양이.jpeg
+    - assets/images/기린.jpeg
+    - assets/images/말.jpeg
+    - assets/images/멜론.jpeg
+    - assets/images/바나나.jpeg
+    - assets/images/블루베리.jpeg
+    - assets/images/사과.jpeg
+    - assets/images/사자.jpeg
+    - assets/images/수박.jpeg
+    - assets/images/숫자.jpeg
+    - assets/images/양.jpeg
+    - assets/images/염소.jpeg
+    - assets/images/오렌지.jpeg
+    - assets/images/참외.jpeg
+    - assets/images/캥거루.jpeg
+    - assets/images/코끼리.jpeg
+    - assets/images/키위.jpeg
+    - assets/images/토마토.jpeg
+    - assets/images/포도.jpeg
+    - assets/images/호랑이.jpeg
+    - assets/audios/강아지.mp3
+    - assets/audios/고양이.mp3
+    - assets/audios/기린.mp3
+    - assets/audios/남색.mp3
+    - assets/audios/노란색.mp3
+    - assets/audios/말.mp3
+    - assets/audios/멜론.mp3
+    - assets/audios/바나나.mp3
+    - assets/audios/보라색.mp3
+    - assets/audios/블루베리.mp3
+    - assets/audios/빨간색.mp3
+    - assets/audios/사과.mp3
+    - assets/audios/사자.mp3
+    - assets/audios/수박.mp3
+    - assets/audios/아빠.mp3
+    - assets/audios/양.mp3
+    - assets/audios/언니.mp3
+    - assets/audios/엄마.mp3
+    - assets/audios/염소.mp3
+    - assets/audios/오렌지.mp3
+    - assets/audios/외할머니.mp3
+    - assets/audios/외할아버지.mp3
+    - assets/audios/이모.mp3
+    - assets/audios/주황색.mp3
+    - assets/audios/참외.mp3
+    - assets/audios/초록색.mp3
+    - assets/audios/캥거루.mp3
+    - assets/audios/코끼리.mp3
+    - assets/audios/큰아빠.mp3
+    - assets/audios/큰엄마.mp3
+    - assets/audios/키위.mp3
+    - assets/audios/토마토.mp3
+    - assets/audios/파란색.mp3
+    - assets/audios/포도.mp3
+    - assets/audios/할머니.mp3
+    - assets/audios/할아버지.mp3
+    - assets/audios/호랑이.mp3
+#    - assets/dog.mp3
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
